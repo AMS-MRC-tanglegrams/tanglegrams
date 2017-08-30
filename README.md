@@ -6,7 +6,10 @@ This resipository stores the codes for generating random tanglegrams uniformly (
 
 How to use
 ----------
-If you have SageMath installed on your machine and have internet access, you may use::
+
+If you have SageMath installed on your machine and have internet access, you may use
+
+::
 
   URL="https://raw.githubusercontent.com/jephianlin/tanglegrams/master/"
   files=["tanglegram_class.sage","random_tanglegram.sage","simulation.sage"]
