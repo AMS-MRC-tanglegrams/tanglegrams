@@ -1,4 +1,4 @@
-# Codes for generating random tanglegrams
+# Codes for generating tanglegrams of size n uniformly
 
 This resipository stores the codes for generating random tanglegrams uniformly (up to isomorphism).  The algotirhm is based on [1].
 
