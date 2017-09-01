@@ -1,16 +1,20 @@
-# Codes for generating tanglegrams of size n uniformly
+# Generating tanglegrams of size n uniformly at random
 
-This resipository stores the codes for generating random tanglegrams uniformly (up to isomorphism).  The algotirhm is based on [1].
+This repository stores the code for generating random tanglegrams
+uniformly (up to isomorphism).  This contains an implementation of
+Algorithm 1, 2, and 3 from [1, p. 252-253]
 
-[1] Sara C. Billey, Matjaž Konvalinka, Frederick A. Matsen IV.  On the enumeration of tanglegrams and tangled chains.  Journal of Combinatorial Theory, Series A 146 (2017) 239–263.
+[1] Sara C. Billey, Matjaž Konvalinka, Frederick A. Matsen IV.
+    On the enumeration of tanglegrams and tangled chains.
+    Journal of Combinatorial Theory, Series A 146 (2017) 239–263.
 
-## How to use
+## How to generate a random tanglegram
 
-If you have SageMath installed on your machine and have internet access, you may use
+If you have SageMath installed on your machine and have internet
+access, you may use
 
-    URL="https://raw.githubusercontent.com/jephianlin/tanglegrams/master/src/"
-    files=["tanglegram_class.sage","random_tanglegram.sage","simulation.sage"]
-    for f in files:
-        load(URL+f);
+    load("https://raw.githubusercontent.com/AMS-MRC-tanglegrams/tanglegrams/master/src/sagecell_random_tanglegram.sage")
 
-Otherwise, you may run this on SageMathCell by clicking [here](https://sagecell.sagemath.org/?z=eJxFjL0KgzAURnfBd5BMSksydbH4Bk5Sp1LkNsYkJT-Se8XXryit33jOx-m7tmGGaMZaiAQr15bM8l5QJRkDqUBcRi8-ajYWgrNBEATtlE7gUXhAUklgkoLl2WSdwubJzscgHSByBK3YlSUIY_TDqX8CrV8ckI3hIK-tFVMxFTYUe7TOs2KbizCWfddepup-kDzr9ujj3yxvFUcT17L6At_zSsk=&lang=sage)
+
+Otherwise, you may run this on SageMathCell by clicking
+[here](http://sagecell.sagemath.org/?z=eJxNyjEOwjAMQNG9Ui_RKRkabwxsiLlL6V6Z1EqQkhjZrnp9BAOwfen9wri5IZs99QwgeIT0sLzfdyWJ3IyahcgVLtNtnObraNhSoSRYFf67ohoJqERQTBSplFWwbVzX3xbeNPi-67v5Y8uX3MkHzXw4_wKHljTw&lang=sage).
