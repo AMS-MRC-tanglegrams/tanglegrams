@@ -4,11 +4,7 @@ from collections import defaultdict as dd
 # tanglegram_class.sage essentially contains the code used in the catalogue to generate
 # all tanglgrams. Beware, heavily undocumented code!
 # In particular it contains the Tanglegram class and also the routine to lay out trees.
-<<<<<<< HEAD
-# load('tanglegram_class.sage')
-=======
-#load('tanglegram_class.sage')
->>>>>>> 52260f5de066ba311e3ff0883cfbe9ed6d9d877b
+
 
 def binary_partitions(n):
     """
@@ -204,6 +200,13 @@ def BinaryTreeIsomorphism(T,S):
     return False;
 
 def line_representation(per):
+    """
+    Input:
+        per: permutation under the format [(a,b): a is matched to b];
+    Output:
+        return the line representation of per;
+        e.g. [(0,1),(1,2),(2,0)] will becomes [1,2,0];
+    """
     new_per=sorted(per,key=lambda k:k[0]);
     line_rep="";
     for m in new_per:
