@@ -8,7 +8,7 @@ This resipository stores the codes for generating random tanglegrams uniformly (
 
 If you have SageMath installed on your machine and have internet access, you may use
 
-    URL="https://raw.githubusercontent.com/jephianlin/tanglegrams/master/"
+    URL="https://raw.githubusercontent.com/jephianlin/tanglegrams/master/src/"
     files=["tanglegram_class.sage","random_tanglegram.sage","simulation.sage"]
     for f in files:
         load(URL+f);
